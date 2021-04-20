@@ -52,7 +52,7 @@ resource "aws_instance" "ec2" {
   subnet_id = aws_subnet.mysubnet.id
   key_name = "myec2instance"
   instance_type = "t2.micro"
-  ami = ami-0518bb0e75d3619ca
+  ami = "ami-0518bb0e75d3619ca"
   vpc_security_group_ids = ["${aws_security_group.sg.id}"]
 }
 
