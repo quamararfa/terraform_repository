@@ -1,3 +1,7 @@
+# We are using Terraform Cloud here for Infra deployment so all the necessary details of provider section(like access key and secret key)
+#will be passed as Environmental Variable in Terraaform cloud to follow the best practise .
+
+
 resource "aws_vpc" "myvpc" {
   cidr_block = "10.0.0.0/16"
 }
