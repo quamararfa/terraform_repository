@@ -44,7 +44,7 @@ resource "aws_security_group" "sg" {
   }
 
 resource "aws_key_pair" "deployer" {
-  key_name   = "myec2instance"
+  key_name   = "deployer"
   public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCeHjb8BX4cXgOg33WkmBZg2+D7g9Qw4lc0b5I2udQI/RBNvl9nvRJQm3fb7nMN6il1jgQYFcNPAsefuoxlc6EITU4C+Agb4Oa330TGOb+sv7AioSPPkMHuODFsYXXnRZ5mRpIvI2ycupV6sGbXkXuQaP+hDlIvaRWZQn2krR1cJh+MV5aNinuHPxyogxL+EldYRqxJbpJMhW9lSToxqO0yGU/nzv89p8u6x34m9QLmOo3Ahl9qzHZ3WFwT02gfdeo4X2ibfN5DTCmfbslge+bWPqmgRoBAYkECOnRA3uHTK/VZAd/SQNv8ETs3zzLd2O3dFEW6kRuG8sox4jjVlq/7 myec2instance"
 }
 
